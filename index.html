@@ -677,14 +677,26 @@ background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Fi
         <h2>Υπηρεσίες</h2>
 
       </div>
-      <div class="row">
+      <div class="row align-self-center justify-content-center">
         <div class="container">
         <div class="section-title" data-aos="fade-right" data-aos-delay="300" data-aos-easing="">
           <h3 >01. Σελίδα Παρουσίασης</h3>
           <p>Η ιδανική λύση για επαγγελματίες που δεν θέλουν να ασχοληθούν με το ηλεκτρονικό εμπόριο, όμως χρειάζονται μία απλή διαδικτυακή παρουσία ώστε οι πελάτες τους να τους βρίσκουν εύκολα.</p>
           <p class="text-center">Όλες οι τιμές είναι πλέον ΦΠΑ</p>
           <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
-
+          <br><br><br>
+          <div class="row">
+            <div class="col-sm-4">
+              <h4 style="text-align: center">
+                Τι περιλαμβάνει:
+              </h4>
+            </div>
+            <div class="col-sm-7">
+              <h4 style="text-align: center">
+                Τι πληρώνετε:
+              </h4>
+            </div>
+          </div>
           <div class="row">
             <div class="col-sm-4">
               <div class="card mb-5 mb-lg-0">
@@ -708,26 +720,67 @@ background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Fi
               <div class="card mb-5 mb-lg-0">
                 <div class="card-body">
                   <h5 class="card-title text-muted text-uppercase text-center">ΕΦΑΠΑΞ</h5>
-                  <h6 class="card-price text-center"><span class="period">Εφάπαξ:</span><br> 180 € <i class='bx bxs-info-circle' data-toggle="tooltip" title='Η τιμή δεν περιλαμβάνει ΦΠΑ. Απαιτείται προκαταβολή 50€ και με τη τελική παράδοση γίνεται η καταβολή του υπόλοιπου ποσού (130€). Αφορά τη κατασκευή και την φιλοξενία καθώς και ο,τι περιγράφεται παρακάτω, για το 1ο έτος. Με το πέρας 1 έτους από την ημερομηνία παράδοσης υπάρχει δυνατότητα ανανέωσης με 50€/έτος ή 5€/μήνα. Διαβάστε περισσότερες πληροφορίες στην ενότητα "Ανανέωση".'></i> <span class="period"><br> για το 1ο έτος</span></h6>
+                  <h6 class="card-price text-center">
+                    <p style="font-size: 16px">Προκαταβολή: 50 €</p>
+                    <p style="font-size: 16px">Με τη παράδοση: <span id="webEfapaxParadosi">130 </span>€</p>
+                    Σύνολο: <span id="webEfapaxSinolo">180</span> € <i class='bx bxs-info-circle' data-toggle="tooltip" title='Η τιμή δεν περιλαμβάνει ΦΠΑ. Απαιτείται προκαταβολή 50€ και με τη τελική παράδοση γίνεται η καταβολή του υπόλοιπου ποσού (130€). Αφορά τη κατασκευή και την φιλοξενία καθώς και ο,τι περιγράφεται παρακάτω, για το 1ο έτος. Με το πέρας 1 έτους από την ημερομηνία παράδοσης υπάρχει δυνατότητα ανανέωσης με 50€/έτος ή 5€/μήνα. Διαβάστε περισσότερες πληροφορίες στην ενότητα "Ανανέωση".'></i>
+                    <span class="period">για το 1ο έτος</span>
+                  </h6>
 
             </div>
           </div>
         </div>
-            <div class="justify-content-center align-items-center align-self-center" style="font-size: 60px">
+            <div class="col-sm-1 justify-content-center align-items-center align-self-center" style="font-size: 60px; text-align: center">
               ή
             </div>
             <div class="col-sm-3 pricing">
               <div class="card mb-5 mb-lg-0">
                 <div class="card-body">
                   <h5 class="card-title text-muted text-uppercase text-center">ΜΗΝΙΑΙΩΣ</h5>
-                  <h6 class="card-price text-center"><span class="period">Εφάπαξ:</span><br> 180 € <i class='bx bxs-info-circle' data-toggle="tooltip" title='Η τιμή δεν περιλαμβάνει ΦΠΑ. Απαιτείται προκαταβολή 50€ και με τη τελική παράδοση γίνεται η καταβολή του υπόλοιπου ποσού (130€). Αφορά τη κατασκευή και την φιλοξενία καθώς και ο,τι περιγράφεται παρακάτω, για το 1ο έτος. Με το πέρας 1 έτους από την ημερομηνία παράδοσης υπάρχει δυνατότητα ανανέωσης με 50€/έτος ή 5€/μήνα. Διαβάστε περισσότερες πληροφορίες στην ενότητα "Ανανέωση".'></i> <span class="period"><br> για το 1ο έτος</span></h6>
+                  <h6 class="card-price text-center">
+                    <p style="font-size: 16px">Προκαταβολή: 50 €</p>
+                    <p style="font-size: 16px">Με τη παράδοση: 50 €</p>
+                    <p style="font-size: 16px">Έπειτα: 10 € / μήνα</p>
+                    Σύνολο: 220 € <i class='bx bxs-info-circle' data-toggle="tooltip" title='Η τιμή δεν περιλαμβάνει ΦΠΑ. Απαιτείται προκαταβολή 50€ και με τη τελική παράδοση γίνεται η καταβολή του υπόλοιπου ποσού (130€). Αφορά τη κατασκευή και την φιλοξενία καθώς και ο,τι περιγράφεται παρακάτω, για το 1ο έτος. Με το πέρας 1 έτους από την ημερομηνία παράδοσης υπάρχει δυνατότητα ανανέωσης με 50€/έτος ή 5€/μήνα. Διαβάστε περισσότερες πληροφορίες στην ενότητα "Ανανέωση".'></i>
+                    <span class="period"> για το 1ο έτος</span>
+                  </h6>
 
+                </div>
+              </div>
+
+        </div>
+
+        </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <span style="font-size: 30px; text-align: center">Προσθέστε επιπλέον:</span>
+              <form action="">
+                <label>
+                  <input type="checkbox" id="extraSections" name="extraSections" onchange="calculateWebsite()">
+                  Επιπλέον Ενότητες <i class="bx bxs-info-circle" data-toggle="tooltip" title="15€ για κάθε επιπλέον ενότητα"></i>
+                </label>
+                  <input type="number" min="1" id="extraSectionsNumber" name="extraSectionsNumber" style="display: none" value="1">
+
+              </form>
             </div>
+            <div class="col-sm-7 pricing">
+                <div class="card mb-5 mb-lg-0">
+
+                  <p style="text-align: center; font-weight: bold">
+                    Ανανέωση
+                  </p>
+
+                  <p style="text-align: center">
+                    Εφάπαξ: 50 € <br>
+                    <span style="font-size: 20px">ή</span> <br>
+                    Μηνιαίως: 5 € / μήνα <span class="text-muted"><br>(60€ σύνολο)</span>
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
           </div>
-
-        </div>
-
-        </div>
       </div>
 
 
@@ -977,15 +1030,34 @@ background: linear-gradient(to left, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Fi
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 
+
+<!-- Calculator Site Παρουσίασης -->
 <script>
-  const curyear = new Date().getFullYear();
-  const age = curyear - 1998;
-  document.getElementById("age").innerHTML = age;
-</script>
-<script>
-  $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();
-  });
+  let webEfapaxParadosi = 130;
+  let webEfapaxSinolo = 180;
+  function calculateWebsite() {
+    // Variables
+    let extraSections = document.getElementById("extraSections").checked
+    let extraSectionsNumber = document.getElementById("extraSectionsNumber")
+
+
+    // Επιπλέον Ενότητες
+    if (extraSections) {
+      extraSectionsNumber.style.display='block';
+      webEfapaxParadosi += extraSectionsNumber.value * 15
+      webEfapaxSinolo = 50 + webEfapaxParadosi
+      document.getElementById("webEfapaxParadosi").innerHTML = webEfapaxParadosi
+      document.getElementById("webEfapaxSinolo").innerHTML = webEfapaxSinolo
+    } else {
+      extraSectionsNumber.style.display="none";
+      webEfapaxParadosi -= extraSectionsNumber.value * 15
+      webEfapaxSinolo = 50 + webEfapaxParadosi
+      document.getElementById("webEfapaxParadosi").innerHTML = webEfapaxParadosi
+      document.getElementById("webEfapaxSinolo").innerHTML = webEfapaxSinolo
+
+
+    }
+  }
 </script>
 </body>
 </html>
