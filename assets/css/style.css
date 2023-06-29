@@ -5,11 +5,46 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+/*--------------------------------------------------------------
+# Custom Pricing Layout
+--------------------------------------------------------------*/
+.custom-pricing {
+  max-width: 768px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.5fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Τι-Περιλαμβάνει Τι-Πληρώνετε Τι-Πληρώνετε Τι-Πληρώνετε"
+    "Παροχές Εφάπαξ ή Μηνιαίως"
+    "Παροχές Ανανέωση Ανανέωση Ανανέωση";
+}
+
+.Τι-Περιλαμβάνει { grid-area: Τι-Περιλαμβάνει; }
+
+.Τι-Πληρώνετε { grid-area: Τι-Πληρώνετε; }
+
+.Ανανέωση { grid-area: Ανανέωση; }
+
+.ή { grid-area: ή; }
+
+.Εφάπαξ { grid-area: Εφάπαξ; }
+
+.Μηνιαίως { grid-area: Μηνιαίως; }
+
+.Παροχές { grid-area: Παροχές; }
+
+
+
 /*--------------------------------------------------------------
 # Pricing Table
 --------------------------------------------------------------*/
 .pricing .card {
-  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  /*background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);*/
+  background: #f8ffff;
   border: none;
   border-radius: 1rem;
   transition: all 0.2s;
@@ -99,6 +134,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: ghostwhite;
 }
 
 a {
