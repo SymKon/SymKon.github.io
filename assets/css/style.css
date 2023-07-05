@@ -9,6 +9,12 @@
 /*--------------------------------------------------------------
 # Custom Pricing Layout
 --------------------------------------------------------------*/
+
+.pricing-parousiasis {
+  display: flex;
+}
+
+
 .custom-pricing {
   max-width: 768px;
   margin: 0 auto;
@@ -1214,5 +1220,9 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+
+  .pricing-parousiasis {
+    display: block;
   }
 }
